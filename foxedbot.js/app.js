@@ -5,7 +5,7 @@ var app = module.exports = {};
 /* Modules */
 try {
 	var Config = require("./config/settings.js");
-	var Steam = require("steam");
+	var Steam = require("steam-client");
 	var log4js = require("log4js");
 } catch (e) {
 	console.log(e.message);
