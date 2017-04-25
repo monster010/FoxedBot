@@ -1,6 +1,6 @@
 {
   "name": "foxedbot",
-  "version": "3.0.2",
+  "version": "3.1.0",
   "description": "A SteamBot for Garry's Mod.",
   "main": "./app.js",
   "repository": {
@@ -12,7 +12,7 @@
   },
   "private": true,
   "dependencies": {
-    "steam": "0.6.8",
+    "steam-client": "*",
     "log4js": "0.6.22"
   },
   "engines": {
